@@ -3,12 +3,11 @@ import './config/ReactotronConfig';
 
 import { Provider } from 'react-redux';
 import store from './store';
-
-console.tron.log('Testando');
+import Routes from './routes';
 
 const App = () => (
   <Provider store={store}>
-    <h1>Hello World</h1>
+    <Routes />
   </Provider>
 );
 
