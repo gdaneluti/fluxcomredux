@@ -3,13 +3,12 @@ import './config/ReactotronConfig';
 
 import { Provider } from 'react-redux';
 import store from './store';
-import TodoList from './components/TodoList';
 
 console.tron.log('Testando');
 
 const App = () => (
   <Provider store={store}>
-    <TodoList />
+    <h1>Hello World</h1>
   </Provider>
 );
 

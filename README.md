@@ -17,3 +17,5 @@ Instalação do redux e da integração do redux com react
 yarn add redux react-redux
 
 yarn add prop-types
+
+yarn add reactotron-react-js reactotron-redux
