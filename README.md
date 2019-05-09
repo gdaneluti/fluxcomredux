@@ -21,3 +21,7 @@ yarn add prop-types
 yarn add reactotron-react-js reactotron-redux
 
 yarn add react-router-dom
+
+yarn add redux-saga axios
+
+yarn add reactotron-redux-saga
